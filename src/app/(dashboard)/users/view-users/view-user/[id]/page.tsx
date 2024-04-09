@@ -1,12 +1,12 @@
 "use client";
-import { Button, Title, Badge } from "@/Components/atomics";
+import { Button, Title, Badge } from "@/components/atomics";
 import { PencilSimpleIcon } from "@/assets/icons";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
-import ButtonLoader from "@/Components/Loaders/buttonLoader";
+import ButtonLoader from "@/components/Loaders/buttonLoader";
 import { Switch } from "@headlessui/react";
 import { useRouter } from "next/navigation";
-import withAuth from "@/Components/withAuth";
+import withAuth from "@/components/withAuth";
 import { ArrowBack } from "@mui/icons-material";
 
 const  Page=({ params }: { params: { id: string } })=> {

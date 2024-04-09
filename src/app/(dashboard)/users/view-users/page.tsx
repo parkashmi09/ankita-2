@@ -5,11 +5,11 @@ import Image from "next/image";
 import { Menu, Switch, Transition } from '@headlessui/react';
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import ModalComponent from "@/Components/Modal/Modal";
-import { Alerts } from "@/Components/atomics";
+import ModalComponent from "@/components/Modal/Modal";
+import { Alerts } from "@/components/atomics";
 import { redirect } from "next/navigation";
-import withAuth from "@/Components/withAuth";
-import PaginationComponent from "@/Components/ui/Pagination";
+import withAuth from "@/components/withAuth";
+import PaginationComponent from "@/components/ui/Pagination";
 
 interface UserData {
   userId: string;

@@ -2,14 +2,14 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import ModalComponent from "@/Components/Modal/Modal";
-import { Button, Input } from "@/Components/atomics";
+import ModalComponent from "@/components/Modal/Modal";
+import { Button, Input } from "@/components/atomics";
 import { Delete, Edit } from "@mui/icons-material";
-import withAuth from "@/Components/withAuth";
+import withAuth from "@/components/withAuth";
 import { countriesOptions } from "@/utils/country";
 import Select from "react-select";
-import EditManager, { EditFormData } from "@/Components/EditManager";
-import TableComponent from "@/Components/ui/table";
+import EditManager, { EditFormData } from "@/components/EditManager";
+import TableComponent from "@/components/ui/table";
 
 
 interface UserData {

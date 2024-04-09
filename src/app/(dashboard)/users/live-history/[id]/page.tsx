@@ -1,6 +1,6 @@
 'use client'
-import ButtonLoader from "@/Components/Loaders/buttonLoader";
-import { Badge, Title } from "@/Components/atomics";
+import ButtonLoader from "@/components/Loaders/buttonLoader";
+import { Badge, Title } from "@/components/atomics";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 

@@ -2,7 +2,7 @@
 
 import "@/app/globals.css";
 import Head from "next/head";
-import ComponentLayout from "@/Components/ComponentLayout";
+import ComponentLayout from "@/components/ComponentLayout";
 
 export const metadata = {
   title: "Usefun Dashboard",

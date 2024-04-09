@@ -1,5 +1,5 @@
 "use client";
-import withAuth from "@/Components/withAuth";
+import withAuth from "@/components/withAuth";
 import { Button, Title } from "@/components/atomics";
 import Form from "@/components/ui/form";
 import React from "react";

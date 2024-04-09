@@ -2,9 +2,9 @@
 import React, { useEffect, useState } from "react";
 import TableComponent from "@/components/ui/table";
 import Image from "next/image";
-import ModalComponent from "@/Components/Modal/Modal";
+import ModalComponent from "@/components/Modal/Modal";
 import { Delete } from "@mui/icons-material";
-import withAuth from "@/Components/withAuth";
+import withAuth from "@/components/withAuth";
 
 interface UserData {
   images?: string[];

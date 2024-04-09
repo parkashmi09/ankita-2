@@ -1,5 +1,5 @@
 'use client'
-import withAuth from "@/Components/withAuth";
+import withAuth from "@/components/withAuth";
 import { Topbar } from "@/components/organisms";
 import Image from "next/image";
 const Home=() =>{

@@ -4,17 +4,17 @@ import TableComponent from "@/components/ui/table";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import ModalComponent from "@/Components/Modal/Modal";
+import ModalComponent from "@/components/Modal/Modal";
 import { Menu, Transition } from "@headlessui/react";
-import { Button, Input } from "@/Components/atomics";
+import { Button, Input } from "@/components/atomics";
 import { Delete, Edit } from "@mui/icons-material";
-import withAuth from "@/Components/withAuth";
+import withAuth from "@/components/withAuth";
 import { countriesOptions } from "@/utils/country";
 import Select from "react-select";
-import EditManager, { EditFormData } from "@/Components/EditManager";
+import EditManager, { EditFormData } from "@/components/EditManager";
 import { PlusIcon } from "@/assets/icons";
 import axios from "axios";
-import EditAdmin from "@/Components/EditAdmin";
+import EditAdmin from "@/components/EditAdmin";
 import { Avatar } from "@nextui-org/react";
 
 interface UserData {

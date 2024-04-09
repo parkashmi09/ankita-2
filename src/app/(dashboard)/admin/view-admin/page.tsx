@@ -2,17 +2,17 @@
 import React, { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import ModalComponent from "@/Components/Modal/Modal";
+import ModalComponent from "@/components/Modal/Modal";
 import { Menu, Transition } from "@headlessui/react";
-import { Button, Input } from "@/Components/atomics";
+import { Button, Input } from "@/components/atomics";
 import { Delete, Edit } from "@mui/icons-material";
-import withAuth from "@/Components/withAuth";
+import withAuth from "@/components/withAuth";
 import { countriesOptions } from "@/utils/country";
 import Select from "react-select";
-import { EditFormData } from "@/Components/EditManager";
+import { EditFormData } from "@/components/EditManager";
 import axios from "axios";
-import EditAdmin from "@/Components/EditAdmin";
-import TableComponent from "@/Components/ui/table";
+import EditAdmin from "@/components/EditAdmin";
+import TableComponent from "@/components/ui/table";
 
 interface UserData {
   userId: string;

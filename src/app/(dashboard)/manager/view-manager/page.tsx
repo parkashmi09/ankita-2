@@ -4,12 +4,12 @@ import TableComponent from "@/components/ui/table";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import ModalComponent from "@/Components/Modal/Modal";
+import ModalComponent from "@/components/Modal/Modal";
 import { Menu, Transition } from "@headlessui/react";
-import { Input } from "@/Components/atomics";
+import { Input } from "@/components/atomics";
 import { Delete, Edit } from "@mui/icons-material";
-import EditManager from "@/Components/EditManager";
-import withAuth from "@/Components/withAuth";
+import EditManager from "@/components/EditManager";
+import withAuth from "@/components/withAuth";
 
 interface UserData {
   userId: string;
