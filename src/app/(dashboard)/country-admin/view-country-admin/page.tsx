@@ -1,19 +1,16 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import TableComponent from "@/components/ui/table";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import ModalComponent from "@/Components/Modal/Modal";
-import { Menu, Transition } from "@headlessui/react";
 import { Button, Input } from "@/Components/atomics";
 import { Delete, Edit } from "@mui/icons-material";
 import withAuth from "@/Components/withAuth";
 import { countriesOptions } from "@/utils/country";
 import Select from "react-select";
 import EditManager, { EditFormData } from "@/Components/EditManager";
-import { PlusIcon } from "@/assets/icons";
-import axios from "axios";
+import TableComponent from "@/Components/ui/table";
+
 
 interface UserData {
   userId: string;

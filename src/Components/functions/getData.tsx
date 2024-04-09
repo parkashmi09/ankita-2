@@ -20,7 +20,7 @@ const useGetData = () => {
       console.log(jsonData,"jsonData")
       setData(jsonData);
       setSuccessMessage(successMessage);
-    } catch (error) {
+    } catch (error:any) {
       setError(error);
     } finally {
       setIsLoading(false);

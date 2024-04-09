@@ -2,7 +2,7 @@ import React from 'react'
 
 const ButtonLoader = () => {
   return (
-    <div class="buttonloader"></div>
+    <div className="buttonloader"></div>
   )
 }
 

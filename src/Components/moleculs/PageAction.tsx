@@ -1,8 +1,8 @@
 "use client"
 
 import React from "react"
+import { Button } from "../atomics"
 
-import { Button } from "@/components/atomics"
 import { ChecksIcon } from "@/assets/icons"
 
 interface PageAction {

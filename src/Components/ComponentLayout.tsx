@@ -1,7 +1,7 @@
-// ComponentLayout.tsx
 "use client";
-import { Sidebar, Topbar } from "@/components/organisms";
+
 import { useState } from "react";
+import { Sidebar, Topbar } from "./organisms";
 import OverLaySideBar from "./organisms/OverLaySideBar";
 
 export default function ComponentLayout() {
