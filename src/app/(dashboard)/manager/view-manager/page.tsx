@@ -4,7 +4,7 @@ import TableComponent from "@/components/ui/table";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
-import ModalComponent from "@/components/Modal";
+import ModalComponent from "../../../../components/Modal";
 import { Menu, Transition } from "@headlessui/react";
 import { Input } from "@/components/atomics";
 import { Delete, Edit } from "@mui/icons-material";
